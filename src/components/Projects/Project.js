@@ -3,6 +3,7 @@ import image from '../../Assets/horiseon.png'
 import image2 from '../../Assets/cbPic.png'
 import image3 from '../../Assets/DID.png'
 import image4 from '../../Assets/LinkedIn.png'
+import image5 from '../../Assets/RQuiz.png'
 export default function Project() {
     return (
         <div className="projects" id="projects">
@@ -24,13 +25,13 @@ export default function Project() {
                     <img src={image4} alt="LinkedIn Image"/>
                     <h3>LinkedIn </h3>
                 </a>
-                <a href="https://ma15.github.io/horiseon/" target="_blank" className="item">
-                    <img src={image} alt="Horiseon Image"/>
+                <a href="https://ma15.github.io/codeQuiz/" target="_blank" className="item">
+                    <img src={image5} alt="Reggae Quiz Image"/>
                     <h3>Horiseon </h3>
                 </a>
                 <a href="https://ma15.github.io/horiseon/" target="_blank" className="item">
                     <img src={image} alt="Horiseon Image"/>
-                    <h3>Horiseon </h3>
+                    <h3>EXAMPLE </h3>
                 </a>
             </div>
         </div>

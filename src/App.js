@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Header from "./components/Navigation/Header";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import 'typeface-roboto'
 import About from "./components/About/About";
 import Contact from "./components/contact/Contact";

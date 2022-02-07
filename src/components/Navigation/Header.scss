@@ -18,10 +18,29 @@ z-index: 2;
     
     .right {
        
+
+        ul{
+            margin: 10px;
+            padding: 0;
+            list-style: none;
+            display: flex;
+
+            li{
+                margin-right: 50px;
+                padding: 7px;
+                border-radius: 10px;
+
+                &.active{
+                    background-color: white;
+                    color: $mainColor;
+                }
+            }
+        }
         .aboutme, .portfolio, .contactme, .resume {
 
             color: white;
             text-decoration: none;
+
            
         }
     }

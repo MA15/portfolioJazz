@@ -17,6 +17,7 @@ const[message,setMessage] = useState(false)
             <div className="right">
             <h1>Contact</h1>
             <form onSubmit={handleSubmit}>
+                <input  type="text" placeholder="Name"/>
                 <input  type="text" placeholder="Email"/>
                 <textarea placeholder="Message"></textarea>
                 <button type="submit">Send</button>
