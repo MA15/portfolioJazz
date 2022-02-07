@@ -11,11 +11,11 @@ const[message,setMessage] = useState(false)
 
     return (
         <div className="contact" id="contact">
-            <div className="left">
+            {/* <div className="left">
 
-            </div>
+            </div> */}
             <div className="right">
-            <h2>Contact</h2>
+            <h1>Contact</h1>
             <form onSubmit={handleSubmit}>
                 <input  type="text" placeholder="Email"/>
                 <textarea placeholder="Message"></textarea>
