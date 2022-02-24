@@ -29,9 +29,9 @@ export default function Project() {
                     <img src={image5} alt="Reggae Quiz Image"/>
                     <h3>Horiseon </h3>
                 </a>
-                <a href="https://ma15.github.io/horiseon/" target="_blank" className="item">
-                    <img src={image} alt="Horiseon Image"/>
-                    <h3>EXAMPLE </h3>
+                <a href="https://spacebook-social-network.herokuapp.com/" target="_blank" className="item">
+                    <img src={image} alt="Spacebook Image"/>
+                    <h3>spacebook</h3>
                 </a>
             </div>
         </div>
